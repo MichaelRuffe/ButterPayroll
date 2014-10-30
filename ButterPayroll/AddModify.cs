@@ -17,5 +17,13 @@ namespace ButterPayroll
             InitializeComponent();
         }
 
+        private void button_cancel_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Close without saving?", "Cancel", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes) {
+                this.Close();
+            }
+        }
+
     }
 }
