@@ -123,7 +123,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 215);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(457, 233);
+            this.groupBox2.Size = new System.Drawing.Size(520, 166);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Payment Information";
@@ -133,9 +133,9 @@
             this.groupBox5.Controls.Add(this.rbutton_fulltime);
             this.groupBox5.Controls.Add(this.radio_parttime);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(475, 275);
+            this.groupBox5.Location = new System.Drawing.Point(538, 301);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(230, 54);
+            this.groupBox5.Size = new System.Drawing.Size(167, 80);
             this.groupBox5.TabIndex = 11;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Work Hours";
@@ -143,8 +143,9 @@
             // rbutton_fulltime
             // 
             this.rbutton_fulltime.AutoSize = true;
+            this.rbutton_fulltime.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.rbutton_fulltime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbutton_fulltime.Location = new System.Drawing.Point(14, 21);
+            this.rbutton_fulltime.Location = new System.Drawing.Point(79, 28);
             this.rbutton_fulltime.Name = "rbutton_fulltime";
             this.rbutton_fulltime.Size = new System.Drawing.Size(82, 20);
             this.rbutton_fulltime.TabIndex = 6;
@@ -155,8 +156,9 @@
             // radio_parttime
             // 
             this.radio_parttime.AutoSize = true;
+            this.radio_parttime.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.radio_parttime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radio_parttime.Location = new System.Drawing.Point(111, 21);
+            this.radio_parttime.Location = new System.Drawing.Point(76, 54);
             this.radio_parttime.Name = "radio_parttime";
             this.radio_parttime.Size = new System.Drawing.Size(85, 20);
             this.radio_parttime.TabIndex = 7;
@@ -169,9 +171,9 @@
             this.groupBox4.Controls.Add(this.radio_directDeposit);
             this.groupBox4.Controls.Add(this.radio_check);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(475, 215);
+            this.groupBox4.Location = new System.Drawing.Point(538, 215);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(230, 54);
+            this.groupBox4.Size = new System.Drawing.Size(167, 80);
             this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Payment Method";
@@ -179,8 +181,9 @@
             // radio_directDeposit
             // 
             this.radio_directDeposit.AutoSize = true;
+            this.radio_directDeposit.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.radio_directDeposit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radio_directDeposit.Location = new System.Drawing.Point(111, 21);
+            this.radio_directDeposit.Location = new System.Drawing.Point(50, 54);
             this.radio_directDeposit.Name = "radio_directDeposit";
             this.radio_directDeposit.Size = new System.Drawing.Size(111, 20);
             this.radio_directDeposit.TabIndex = 9;
@@ -191,8 +194,9 @@
             // radio_check
             // 
             this.radio_check.AutoSize = true;
+            this.radio_check.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.radio_check.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radio_check.Location = new System.Drawing.Point(14, 21);
+            this.radio_check.Location = new System.Drawing.Point(97, 28);
             this.radio_check.Name = "radio_check";
             this.radio_check.Size = new System.Drawing.Size(64, 20);
             this.radio_check.TabIndex = 8;
@@ -204,7 +208,7 @@
             // 
             this.label_accountNum.AutoSize = true;
             this.label_accountNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_accountNum.Location = new System.Drawing.Point(6, 38);
+            this.label_accountNum.Location = new System.Drawing.Point(6, 30);
             this.label_accountNum.Name = "label_accountNum";
             this.label_accountNum.Size = new System.Drawing.Size(66, 16);
             this.label_accountNum.TabIndex = 5;
@@ -213,7 +217,7 @@
             // tbox_accountNum
             // 
             this.tbox_accountNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbox_accountNum.Location = new System.Drawing.Point(6, 57);
+            this.tbox_accountNum.Location = new System.Drawing.Point(6, 49);
             this.tbox_accountNum.Name = "tbox_accountNum";
             this.tbox_accountNum.Size = new System.Drawing.Size(100, 22);
             this.tbox_accountNum.TabIndex = 4;
@@ -243,7 +247,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(101, 17);
+            this.label1.Location = new System.Drawing.Point(14, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 24);
             this.label1.TabIndex = 5;
@@ -253,7 +257,7 @@
             // 
             this.label_employeeID.AutoSize = true;
             this.label_employeeID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_employeeID.Location = new System.Drawing.Point(230, 17);
+            this.label_employeeID.Location = new System.Drawing.Point(143, 17);
             this.label_employeeID.Name = "label_employeeID";
             this.label_employeeID.Size = new System.Drawing.Size(20, 24);
             this.label_employeeID.TabIndex = 6;
@@ -359,7 +363,7 @@
             // 
             this.label_routingNum.AutoSize = true;
             this.label_routingNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_routingNum.Location = new System.Drawing.Point(112, 38);
+            this.label_routingNum.Location = new System.Drawing.Point(112, 30);
             this.label_routingNum.Name = "label_routingNum";
             this.label_routingNum.Size = new System.Drawing.Size(64, 16);
             this.label_routingNum.TabIndex = 7;
@@ -368,7 +372,7 @@
             // tbox_routingNum
             // 
             this.tbox_routingNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbox_routingNum.Location = new System.Drawing.Point(112, 57);
+            this.tbox_routingNum.Location = new System.Drawing.Point(112, 49);
             this.tbox_routingNum.Name = "tbox_routingNum";
             this.tbox_routingNum.Size = new System.Drawing.Size(100, 22);
             this.tbox_routingNum.TabIndex = 6;
@@ -379,7 +383,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.CancelButton = this.button_cancel;
-            this.ClientSize = new System.Drawing.Size(717, 460);
+            this.ClientSize = new System.Drawing.Size(717, 390);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox4);
