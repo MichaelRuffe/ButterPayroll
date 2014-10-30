@@ -25,5 +25,20 @@ namespace ButterPayroll
             }
         }
 
+        private void employeeBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.employeeBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.directoryDataSet1);
+
+        }
+
+        private void AddModify_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'directoryDataSet1.Employee' table. You can move, or remove it, as needed.
+            this.employeeTableAdapter.Fill(this.directoryDataSet1.Employee);
+
+        }
+
     }
 }
