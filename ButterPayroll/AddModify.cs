@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ButterPayroll
 {
-    public partial class Form1 : Form
+    public partial class AddModify : Form
     {
-        public Form1()
+        public AddModify()
         {
             InitializeComponent();
         }
